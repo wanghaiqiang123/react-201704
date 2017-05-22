@@ -1,0 +1,1 @@
+使用cmd进入到atom/packages文件夹里安装
