@@ -1,4 +1,3 @@
-ĞÕÃû: ¸ßÑàÈã
-githubÓÃ»§Ãû: gaoyanru
-ÓÊÏä: 962290336@qq.com
-Ïë·¨: ÔİÊ±»¹Ã»ÓĞ ÏÈÌ¤Ì¤ÊµÊµÑ§
+name: é«˜ç‡•èŒ¹
+github account: gaoyanru
+email: 962290336@qq.com
