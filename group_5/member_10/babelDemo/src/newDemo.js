@@ -1,3 +1,5 @@
+import "babel-polyfill";
+console.log(2);
 class asyncAction{
     sayHello(){
         this.hello().then(() => {

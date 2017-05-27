@@ -1,3 +1,4 @@
+import "babel-polyfill";
 const demo = "gyr";
 
 let aa = "gao";
