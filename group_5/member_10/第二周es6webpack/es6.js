@@ -72,3 +72,54 @@ class Child extends Person1 {
 var child1 = new Child("gao", 22, "女");
 child1.getChild();
 child1.getPerson();
+
+// 对象字面量方式(2种方式)
+var a = 1, b = 'str', fn = (m, n) => { console.log(m + n) };
+var obj = { a, b, fn };
+console.log(obj);
+var obj1 = {
+  c: 1,
+  getName () {
+    console.log(this.c)
+  },
+  fn: function getAge() {
+    console.log('es5')
+  }
+}
+console.log(obj1)
+
+// 模板字符串
+var name = 'gyr', age = 18
+var str = `${name} is ${age}`
+console.log(str)
+var strHtml = `<div>
+                <h1>${name}</h1>
+                <p>${age}</p>
+              </div>`
+console.log(strHtml)
+
+// 解构赋值
+var ary = ['a', 'b', 'c']
+var [a, ,c] = ary
+console.log(a,c)
+var obj = {
+  fn: function(){console.log("aa")},
+  b: [1, 2, 3]
+}
+var { fn, b } = obj
+console.log(fn,b)
+// import { 组件1, 组件2 } from '文件导出这些属性'
+
+// default rest ...
+function getMag(name,age=18) {
+  console.log(`${name} is ${age}`)
+}
+getMag('gyr')
+function getRest(obj,...keys){
+  console.log(arguments ) // 所以参数
+  console.log(keys) // 不定参数 相当于解构
+  console.log(...keys)
+}
+var data = {a: 1, b: 2}
+getRest(data,name,age,'gyr')
+// 数组展开 ...
