@@ -100,4 +100,5 @@ getRest(data,name,age,'gyr')
 ### let const
 - const 一般常用在定义常量表示接口
 ### 模块
-- mudules 模块化 使用webpack将模块打包
+- mudules 模块化 借助add-module-exports解决default拿不到值问题；import三种方式(解构,\*as,重命名)；export(导出函数时候加函数名)
+- default 导出的是一个整体(比如一个对象导出的是整个对象 导入的时候用重命名的方式)；不加default导出的是多个键值对导入的时候需要用解构或者\*as方式

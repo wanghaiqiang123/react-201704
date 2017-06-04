@@ -1,3 +1,5 @@
+
+import a from './modules.js'
 // 箭头函数
 var obj = {
   name: "gyr",
@@ -122,4 +124,5 @@ function getRest(obj,...keys){
 }
 var data = {a: 1, b: 2}
 getRest(data,name,age,'gyr')
-// 数组展开 ...
+
+// modules
